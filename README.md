@@ -64,3 +64,11 @@ Which shows that (from `texts/texts.py`):
 ```
 
 Apologies for incorrect Spanish
+
+# To do your own tests
+
+- Edit the code in `texts/texts.py`.
+- `make update_messages` to update the translation input files.
+- Edit any translations in `locale/es/LC_MESSAGES/django.po`
+- `make update_messages` again to compile messages to `.mo`
+- `make test` to run your code.
